@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  body{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    position: sticky;
+    top: 0;
+    align-items: center;
+    height: 7vh;
+}
+header > h2{
+   width: 35%;
+   color: #fff;
+   padding: 0 10px; 
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.5em;
+}
+nav > a:hover{
+    color: rgb(68, 67, 67);
+    background-color: rgb(212, 212, 212);
+    transition: .2s;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px 0;
+   
+ 
+}
+input[type="text"], input[type="email"],select, input[type="password"], input[type="number"]{
+    width: 500px;
+    margin: 10px 0;
+    border: none;
+    padding: 10px 5px;
+    border: 1px solid rgb(153, 147, 147);
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: rgb(0, 0, 0);
+    margin:20px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    width: 200px;
+    padding: 13px;
+}
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: black;
+    transition: .3s;
+    border: none;
+}
